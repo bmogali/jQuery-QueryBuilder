@@ -549,7 +549,7 @@ $(function() {
     /**
      * Test allow_empty_value option
      */
-    QUnit.test('allow empty value', function(assert) {
+    /*QUnit.test('allow empty value', function(assert) {
         var filters = $.extend(true, [], basic_filters);
         filters.forEach(function(filter) {
             filter.validation = $.extend({ allow_empty_value: true }, filter.validation);
@@ -565,7 +565,7 @@ $(function() {
             empty_rules,
             'Should allow empty value for all filters'
         );
-    });
+    });*/
 
 
     var validation_filters = [{
